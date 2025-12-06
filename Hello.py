@@ -1,1 +1,1 @@
-print("Hellow from github action")
+print("This is for pull request")
