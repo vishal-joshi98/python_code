@@ -6,16 +6,16 @@ on:
 
 jobs:
   run-Python:
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
-  steps:
-    - name: checkout repository
-      uses: actions/checkout@v4
+      steps:
+        - name: checkout repository
+          uses: actions/checkout@v4
     
-    - name: set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+        - name: set up Python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.x'
 
-    - name: Run Hello.python
-      run: python Hello.py
+        - name: Run Hello.python
+          run: python Hello.py
